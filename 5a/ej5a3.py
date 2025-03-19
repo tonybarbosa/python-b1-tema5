@@ -1,5 +1,5 @@
 """
-Enunciado:
+Enunciado :
 Crea una clase llamada "SafeWalletCredentials" que represente una
 billetera electrónica que almacena monedas digitales y permite
 establecer y obtener la contraseña de la billetera usando
