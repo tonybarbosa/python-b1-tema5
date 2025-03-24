@@ -1,5 +1,5 @@
 from ej5a2 import Animal, Dog, Cat, Duck
-
+import pytest
 
 def test_dog_sound():
     dog = Dog()
