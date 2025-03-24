@@ -17,11 +17,6 @@ def test_duck_sound():
 
 
 def test_animal_abstract_method():
-    try:
+    with pytest.raises(TypeError):
         animal = Animal()
         animal.make_sound()
-    except TypeError as e:
-        assert (
-            str(e)
-            == "Can't instantiate abstract class Animal with abstract method make_sound"
-        ), "Incorrect error message for animal abstract method test"
