@@ -19,4 +19,4 @@ def test_duck_sound():
 
 def test_animal_abstract_method():
     with pytest.raises(TypeError):
-        Animal()
+        Animal()  # Esto debe lanzar un error si Animal es realmente abstracta
