@@ -1,5 +1,6 @@
-from ej5a2 import Animal, Dog, Cat, Duck
 import pytest
+from ej5a2 import Animal, Dog, Cat, Duck
+
 
 def test_dog_sound():
     dog = Dog()
@@ -18,5 +19,4 @@ def test_duck_sound():
 
 def test_animal_abstract_method():
     with pytest.raises(TypeError):
-        animal = Animal()
-        animal.make_sound()
+        Animal()
